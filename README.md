@@ -1,7 +1,9 @@
 # **monstercat-album-release-page**
-frontendpractice.com frontend learning project
 
-This [website](https://monstercat-album-release-page.vercel.app/) is for practice and for displaying my programming frontend abilities. </br>
+learning project rescued from [www.frontendpractice.com/projects/monstercat](https://www.frontendpractice.com/projects/monstercat)
+The original website: [monstercat.com/release/MCLP017](https://www.monstercat.com/release/MCLP017/)
+
+My result [clone website](https://monstercat-album-release-page.vercel.app/) is for practice and for displaying my programming frontend abilities. </br>
 Tools used:
 - [React](https://reactjs.org/docs/getting-started.html): library for building user interface
 - [TailwindCSS](https://tailwindcss.com/): helps with layout and design
