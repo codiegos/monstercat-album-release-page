@@ -1,0 +1,41 @@
+@import url('https://db.onlinewebfonts.com/c/55d433372d270829c51e2577a78ef12d?family=Monument+Extended');
+:root {
+  --primary: #0f0d0d;
+  --secondary: #c2d4cc;
+}
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--secondary) var(--primary);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+*::-webkit-scrollbar-track {
+  margin-left: 275px;
+  background: var(--primary);
+}
+
+*::-webkit-scrollbar-thumb {
+  margin-top: 200px;
+  background-color: var(--secondary);
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-stroke {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1.1px;
+  }
+}
+
+html {
+  color-scheme: dark;
+  background-color: #0f0d0d;
+}
