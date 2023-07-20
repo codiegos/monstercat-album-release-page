@@ -18,33 +18,36 @@ function Tracks (): JSX.Element {
     setIsPlaying(!isPlaying)
   }
   return (
-    <section className='relative flex flex-col items-start px-48 xl:min-h-screen bg-primary'>
-      <div className='flex flex-col justify-center w-full pr-16'>
-        <div className='my-12 flex flex-col gap-12 whitespace-nowrap'>
-          <h1 className='text-2xl tracking-widest md:text-5xl'>
+    <section className='relative flex flex-col items-start px-4 sm:px-16 md:px-20 xl:min-h-screen xl:px-48'>
+      <div className='flex w-full flex-col justify-center xl:pr-16'>
+        <div className='flex flex-col gap-6 py-12 md:gap-12 '>
+          <h1 className='text-xl tracking-widest md:text-5xl'>
             STREAM IT YOUR WAY
           </h1>
           <ul className='flex items-center'>
             {mediaIcons.map(mediaIcon => (
-              <li key={mediaIcon.tooltip} className='ring-1 ring-white p-7 '>
-                <a href='#' className='relative group flex justify-center'>
+              <li
+                key={mediaIcon.tooltip}
+                className='p-2.5 ring-1 ring-white lg:p-7'
+              >
+                <a href='#' className='group relative flex justify-center'>
                   {mediaIcon.logo}
                   <Tooltip text={mediaIcon.tooltip} />
                 </a>
               </li>
             ))}
           </ul>
-          <h1 className='text-2xl tracking-widest md:text-5xl pt-12'>
+          <h1 className='pt-6 text-xl tracking-widest md:pt-12 md:text-5xl'>
             TRACK LIST
           </h1>
           <ol className='flex flex-col gap-10'>
             {tracks.map(track => (
               <li
-                className='flex items-center justify-between gap-4'
+                className='flex items-center justify-between md:gap-4'
                 key={track.listNumber}
               >
-                <div className='flex items-center justify-center gap-8'>
-                  <span className='text-lg w-4'>{track.listNumber}</span>
+                <div className='flex items-center justify-center gap-4 md:gap-8'>
+                  <span className=' w-4 xl:text-lg'>{track.listNumber}</span>
                   <button onClick={handlePlayAudio}>
                     {isPlaying ? <PauseIcon /> : <PlayIcon />}
                   </button>
@@ -57,14 +60,14 @@ function Tracks (): JSX.Element {
                     Your browser does not support the audio element.
                   </audio>
                   <div className='flex flex-col'>
-                    <span className='text-lg'>{track.name}</span>
+                    <span className='text-xs xl:text-lg'>{track.name}</span>
                     <span className='text-xs font-extralight tracking-widest'>
                       {track.artist}
                     </span>
                   </div>
                 </div>
-                <div className='flex items-center gap-20'>
-                  <span className='text-lg'>{track.duration}</span>
+                <div className='flex items-center xl:gap-20'>
+                  <span className='text-xs xl:text-lg'>{track.duration}</span>
                   <ShareIcon />
                 </div>
               </li>

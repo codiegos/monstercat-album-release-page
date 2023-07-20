@@ -1,8 +1,8 @@
 function MusicVideo (): JSX.Element {
   return (
-    <section className='relative flex flex-col items-start px-48 xl:min-h-screen bg-primary'>
-      <div className='flex flex-col justify-center w-full'>
-        <h1 className='text-2xl tracking-widest md:text-5xl pt-20 pb-12'>
+    <section className='relative flex flex-col items-start bg-primary px-4 sm:px-16 md:px-20 xl:min-h-screen xl:px-48'>
+      <div className='flex w-full flex-col justify-center'>
+        <h1 className='pb-12 pt-20 text-xl tracking-widest md:text-5xl'>
           MUSIC VIDEO
         </h1>
         <iframe

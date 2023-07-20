@@ -292,7 +292,7 @@ export function MonstercatPlayerTextIcon (): JSX.Element {
 export function BandCampIcon (): JSX.Element {
   return (
     <svg
-      className='w-6 h-6'
+      className='h-6 w-6'
       xmlns='http://www.w3.org/2000/svg'
       width='24'
       height='24'
@@ -304,10 +304,11 @@ export function BandCampIcon (): JSX.Element {
     </svg>
   )
 }
+
 export function SoundCloudIcon (): JSX.Element {
   return (
     <svg
-      className='w-6 h-6'
+      className='h-6 w-6'
       xmlns='http://www.w3.org/2000/svg'
       width='24'
       height='24'
@@ -322,7 +323,7 @@ export function SoundCloudIcon (): JSX.Element {
 export function SpotifyIcon (): JSX.Element {
   return (
     <svg
-      className='w-6 h-6'
+      className='h-6 w-6'
       xmlns='http://www.w3.org/2000/svg'
       width='24'
       height='24'
@@ -333,10 +334,11 @@ export function SpotifyIcon (): JSX.Element {
     </svg>
   )
 }
+
 export function AppleIcon (): JSX.Element {
   return (
     <svg
-      className='w-6 h-6'
+      className='h-6 w-6'
       xmlns='http://www.w3.org/2000/svg'
       width='24'
       height='24'
@@ -347,10 +349,11 @@ export function AppleIcon (): JSX.Element {
     </svg>
   )
 }
+
 export function YoutubeIcon (): JSX.Element {
   return (
     <svg
-      className='w-6 h-6'
+      className='h-6 w-6'
       xmlns='http://www.w3.org/2000/svg'
       width='24'
       height='24'

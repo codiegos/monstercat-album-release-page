@@ -17,114 +17,114 @@ import {
 export const allIcons = [
   {
     logo: <InstagramIcon />,
-    href: ''
+    href: '#'
   },
   {
     logo: <TikTokIcon />,
-    href: ''
+    href: '#'
   },
   {
     logo: <TwitterIcon />,
-    href: ''
+    href: '#'
   },
   {
     logo: <TwitchIcon />,
-    href: ''
+    href: '#'
   },
   {
     logo: <FacebookIcon />,
-    href: ''
+    href: '#'
   },
   {
     logo: <DiscordIcon />,
-    href: ''
+    href: '#'
   },
   {
     logo: <MonstercatPlayerIcon />,
-    href: ''
+    href: '#'
   },
   {
     logo: <BandCampIcon />,
-    href: ''
+    href: '#'
   },
   {
     logo: <SoundCloudIcon />,
-    href: ''
+    href: '#'
   },
   {
     logo: <AppleIcon />,
-    href: ''
+    href: '#'
   },
   {
     logo: <YoutubeIcon />,
-    href: ''
+    href: '#'
   },
   {
     logo: <SpotifyIcon />,
-    href: ''
+    href: '#'
   }
 ]
 
 export const socialMediaIcons = [
   {
     logo: <InstagramIcon />,
-    href: ''
+    href: '#'
   },
   {
     logo: <TikTokIcon />,
-    href: ''
+    href: '#'
   },
   {
     logo: <TwitterIcon />,
-    href: ''
+    href: '#'
   },
   {
     logo: <TwitchIcon />,
-    href: ''
+    href: '#'
   },
   {
     logo: <FacebookIcon />,
-    href: ''
+    href: '#'
   },
   {
     logo: <DiscordIcon />,
-    href: ''
+    href: '#'
   },
   {
     logo: <MonstercatPlayerIcon />,
-    href: ''
+    href: '#'
   }
 ]
 
 export const mediaIcons = [
   {
     logo: <MonstercatPlayerTextIcon />,
-    href: '',
+    href: '#',
     tooltip: 'Monstercat Player'
   },
   {
     logo: <BandCampIcon />,
-    href: '',
+    href: '#',
     tooltip: 'Bandcamp'
   },
   {
     logo: <SoundCloudIcon />,
-    href: '',
+    href: '#',
     tooltip: 'Soundcloud'
   },
   {
     logo: <AppleIcon />,
-    href: '',
+    href: '#',
     tooltip: 'Apple Music'
   },
   {
     logo: <YoutubeIcon />,
-    href: '',
+    href: '#',
     tooltip: 'Youtube'
   },
   {
     logo: <SpotifyIcon />,
-    href: '',
+    href: '#',
     tooltip: 'Spotify'
   }
 ]
