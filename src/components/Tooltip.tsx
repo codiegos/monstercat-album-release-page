@@ -3,7 +3,7 @@ interface TooltipProps {
 }
 function Tooltip ({ text }: TooltipProps): JSX.Element {
   return (
-    <div className='bottom-10 hidden rounded-sm bg-gray-100 p-2 text-xs text-primary opacity-0 duration-300 group-hover:opacity-100 md:absolute'>
+    <div className='absolute bottom-10 rounded-sm bg-gray-100 p-2 text-xs text-primary opacity-0 duration-300 group-hover:opacity-100 md:block whitespace-nowrap'>
       <span className='relative'>STREAM ON {text}</span>
       <svg
         className='absolute right-[44%] h-6 w-6 rotate-90 fill-gray-100 opacity-0 duration-200 group-hover:opacity-100'
