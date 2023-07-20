@@ -16,7 +16,7 @@ function Home (): JSX.Element {
             </p>
             <img
               className='h-auto w-auto md:rotate-90'
-              src='https://cdx.monstercat.com/resized/8a169d846576fcdad7a0a6e04d371eb05b2a9397/800.webp'
+              src='https://cdx.monstercat.com/resized/8a169d846576fcdad7a0a6e04d371eb05b2a9397/600.webp'
               alt='level days album cover - CONRO'
             />
           </div>
